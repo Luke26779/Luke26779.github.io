@@ -5,20 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My weebpage</title>
+    <title>Boxes</title>
+    <style>
+        #centerBox {
+            border-width: 100%;
+            border-style: solid;
+            border-radius: 0px 10px 0px 10px;
+            background-color: bisque;
+            padding: 10px;
+            margin: 50px;
+    
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .blogBox {
+            background-color: aqua;
+            padding: 10px;
+            overflow: auto;
+            border: solid 1px black;
+            border-radius: 10px;
+            box-shadow: 3px 3px;
+        }
+
+        .blogBox p {
+            text-align: justify;
+            
+            
+        }
+
+        .blogBox img {
+            float: left;
+            max-width: 300px;
+            padding: 5px;
+            
+            
+            
+        }
+        *{
+            font-family: 'comic sans ms'
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 450px){
+
+            .blogBox img{
+                max-width: none;
+                float: none;
+                width: 100%;
+            }
+            #centerBox{
+                width: 100%;
+            }
+        }
+        #
+
+        
+         
+
+        
+    </style>
 </head>
 
 <body>
-    <p>Hello how are you today </p>
-    <p>I was only attacked by <b>two</b> ninja clans today </p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=up">thumbs up</a></p>
-    <p> <a href="http://192.168.10.69:420/tutd?thumb=down">thumbs down</a> </p>
-    <p> <a href="http://192.168.10.69:420/tutd?thumb=wiggle ">wiggle</a> </p>
-    <p> <a href="http://192.168.10.69:420/tutd?thumb=oops ">remove</a></p>
-
-    <a href="http://192.168.10.21:1024">Only pogs</a>
-    <ul>
-        <li> <a href="about.html">About page</a></li>
-        <li> <a href="gamefiles/game.html">My Game</a></li>
-    </ul>
+    <div id="centerBox">
+        <h1>#1 Victory Royale</h1>
+        <div class="blogBox">
+            <h2>Blog Bros</h2>
+            <img src="Landscape-Color.jpg">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis lectus, facilisis sit amet velit
+                ac, lobortis egestas est. Nunc a dapibus dui. Pellentesque congue vulputate congue. Aliquam ut turpis
+                eget libero tincidunt finibus. Nulla sed porta ante. Donec dictum ultricies lacus vel fermentum. Morbi
+                sed suscipit elit. Morbi ipsum velit, elementum eu tortor eu, elementum pulvinar nisl. Nulla tincidunt
+                pellentesque est eu ultrices. Nulla a eleifend risus. Quisque at tellus dui. Curabitur vel condimentum
+                quam. Vivamus egestas, quam eu congue dignissim, massa arcu pharetra magna, a imperdiet nibh leo nec ex.
+                In sollicitudin, ipsum ac ornare feugiat, turpis velit lobortis diam, in mollis nibh tortor et sem.
+                Phasellus at enim at elit pulvinar convallis vel nec ex. Nullam tortor dui, varius feugiat nunc in,
+                commodo dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis lectus, facilisis sit amet velit
+                ac, lobortis egestas est. Nunc a dapibus dui. Pellentesque congue vulputate congue. Aliquam ut turpis
+                eget libero tincidunt finibus. Nulla sed porta ante. Donec dictum ultricies lacus vel fermentum. Morbi
+                sed suscipit elit. Morbi ipsum velit, elementum eu tortor eu, elementum pulvinar nisl. Nulla tincidunt
+                pellentesque est eu ultrices. Nulla a eleifend risus. Quisque at tellus dui. Curabitur vel condimentum
+                quam. Vivamus egestas, quam eu congue dignissim, massa arcu pharetra magna, a imperdiet nibh leo nec ex.
+                In sollicitudin, ipsum ac ornare feugiat, turpis velit lobortis diam, in mollis nibh tortor et sem.
+                Phasellus at enim at elit pulvinar convallis vel nec ex. Nullam tortor dui, varius feugiat nunc in,
+                commodo dignissim tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis lectus, facilisis sit amet velit
+                ac, lobortis egestas est. Nunc a dapibus dui. Pellentesque congue vulputate congue. Aliquam ut turpis
+                eget libero tincidunt finibus. Nulla sed porta ante. Donec dictum ultricies lacus vel fermentum. Morbi
+                sed suscipit elit. Morbi ipsum velit, elementum eu tortor eu, elementum pulvinar nisl. Nulla tincidunt
+                pellentesque est eu ultrices. Nulla a eleifend risus. Quisque at tellus dui. Curabitur vel condimentum
+                quam. Vivamus egestas, quam eu congue dignissim, massa arcu pharetra magna, a imperdiet nibh leo nec ex.
+                In sollicitudin, ipsum ac ornare feugiat, turpis velit lobortis diam, in mollis nibh tortor et sem.
+                Phasellus at enim at elit pulvinar convallis vel nec ex. Nullam tortor dui, varius feugiat nunc in,
+                commodo dignissim tortor.  </p>
+        </div>
 </body>
+
+</html>
